@@ -7,7 +7,6 @@ One function per operation, in order.
 # First example
 import math
 
-<<<<<<< HEAD
 def square_root(a):
     try:
         if a < 0:
@@ -16,6 +15,7 @@ def square_root(a):
     except Exception as e:
         print(f"Error in square_root: {e}")
         return
+
 def hypotenuse(a, b):
     try:
         return math.hypot(a, b)
@@ -24,8 +24,6 @@ def hypotenuse(a, b):
         return
 
 # First example
-=======
->>>>>>> f756465d641028aa4b64df8c27e683c3eec4912e
 def add(a, b):
     return a + b
 
