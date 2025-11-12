@@ -1,3 +1,6 @@
+#https://github.com/mlilac/lab10-AV-LM.git
+#Partner 1: Aniruth Venkedesh
+#Partner 2: Lucas Moraes
 """
 calculator.py
 - Defines functions used to create a simple calculator
