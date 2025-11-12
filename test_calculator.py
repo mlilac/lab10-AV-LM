@@ -47,10 +47,10 @@ class TestCalculator(unittest.TestCase):
         self.assertAlmostEqual(hypotenuse(-6, 8), 10, "Hypotenuse of -6, 8 should be 10")
 
     def test_sqrt(self): # 3 assertions
-        with self.assertRaises(ValueError):
-            square_root(-9)
         self.assertEqual(square_root(9), 3, "Square root of 9 should be 3")
         self.assertEqual(square_root(0), 0, "Square root of 0 should be 0")
+        with self.assertRaises(ValueError):
+            square_root(-9)
     ##########################
 
 # Do not touch this
