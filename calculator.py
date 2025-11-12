@@ -11,9 +11,9 @@ One function per operation, in order.
 import math
 
 def square_root(a):
+    if a < 0:
+        raise ValueError("Cannot take square root of a negative number.")
     try:
-        if a < 0:
-            raise ValueError("Cannot take square root of a negative number.")
         return math.sqrt(a)
     except Exception as e:
         print(f"Error in square_root: {e}")
@@ -30,7 +30,7 @@ def hypotenuse(a, b):
 def add(a, b):
     return a + b
 
-def sub(a, b):
+def subtract(a, b):
     return a - b
 
 def mul(a, b):
@@ -40,7 +40,7 @@ def div(a, b):
     if a == 0: raise(ZeroDivisionError)
     return b / a
 
-def log(a, b):
+def logarithm(a, b):
     return math.log(b, a)
 
 def exp(a, b):
