@@ -1,5 +1,13 @@
+"""
+calculator.py
+- Defines functions used to create a simple calculator
+
+One function per operation, in order.
+"""
+# First example
 import math
 
+<<<<<<< HEAD
 def square_root(a):
     try:
         if a < 0:
@@ -16,6 +24,8 @@ def hypotenuse(a, b):
         return
 
 # First example
+=======
+>>>>>>> f756465d641028aa4b64df8c27e683c3eec4912e
 def add(a, b):
     return a + b
 
